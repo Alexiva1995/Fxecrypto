@@ -1,0 +1,597 @@
+body{
+	background-image: url(https://www.ecryptosmart.com/images/background.png); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+}
+.language-li{
+	margin-right: 80px;
+}
+.language-link{
+	color: white; 
+	font-size: 17px;
+}
+.language-link:hover{
+	text-decoration: none;
+	color: white;
+}
+.language-list{
+	background-color: #020591 !important;
+}
+.language-list-item{
+	color: white !important;
+}
+.language-list-item:hover{
+	color: #020591 !important;
+}
+.btn-logout{
+    color: #fff !important;
+	background: linear-gradient(118deg, #33FFB8, #0000CE) !important;
+	font-weight: bold !important;
+	font-size: 11px !important;
+	width: 120px !important;
+	margin-left: 20px;
+}
+.main{
+	background-image: url(https://www.ecryptosmart.com/images/background-with-elements.png); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color: #020591;
+}
+.content{
+	text-align: center;
+	padding: 25px 0;
+	color: #fff; 
+	font-family: Helvetica-Light; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-size: 24px;
+}
+.btn-ecrypto{
+	font-weight: bold !important;
+	border-radius: 25px !important;
+	width: 180px;
+}
+.btn-blue-dark{
+    color: #fff !important;
+    background-color: #020591 !important;
+    border-color: #020591 !important;
+}
+.btn-blue-dark:hover{
+    color: #020591 !important;
+    background-color: #fff !important;
+    border-color: #020591 !important;
+}
+.btn-blue-medium{
+    color: #fff !important;
+    background-color: #024BFF !important;
+    border-color: #024BFF !important;
+}
+.btn-blue-medium:hover{
+    color: #024BFF !important;
+    background-color: #fff !important;
+    border-color: #024BFF !important;
+}
+.btn-blue-light{
+    color: #fff !important;
+    background-color: #029CFF !important;
+    border-color: #029CFF !important;
+}
+.btn-blue-light:hover{
+    color: #029CFF !important;
+    background-color: #fff !important;
+    border-color: #029CFF !important;
+}
+.btn-blue-gradient{
+    color: #fff !important;
+    background: linear-gradient(118deg, #33ffb8, #0000ce) !important;
+    font-weight: bold;
+    font-size: 24px !important;
+	border-radius: 15px !important;
+	width: 40%;
+}
+.btn-blue-no-gradient{
+    color: #fff !important;
+    background-color: #029CFF !important;
+    font-weight: bold;
+    font-size: 24px !important;
+	border-radius: 15px !important;
+	width: 90%;
+}
+.btn-gradient-balance-eth{
+    color: #fff !important;
+    background: linear-gradient(118deg, #029CFF, #0253FF) !important;
+    font-weight: bold;
+    font-size: 20px !important;
+}
+.btn-gradient-price-eth{
+    color: #fff !important;
+    background: linear-gradient(118deg, #33FFB8, #0000CE) !important;
+    font-weight: bold;
+}
+.btn-gradient-price-usd{
+    color: #fff !important;
+    background: linear-gradient(118deg, #3382FF, #0000FF) !important;
+    font-weight: bold;
+}
+.btn-gradient-light{
+    color: #fff !important;
+    background: linear-gradient(118deg, #00FFFF, #3382FF) !important;
+    font-weight: bold;
+	font-size: 18px !important;
+	width: 120px !important;
+}
+#eth-icon{
+	height: 620px;
+}
+.smart-contract{
+	padding-top: 30%;
+	text-align: center;
+}
+.smart-contract-buttons{
+	padding: 25px 15px;
+}
+.pad-20{
+	padding: 20px 15%;
+}
+.first-title{
+	font-family: Norwester-Regular; 
+	font-size: 50px;
+}
+.title{
+	font-family: Norwester-Regular; 
+	font-size: 50px;
+	padding-top: 50px; 
+	padding-bottom: 30px;
+}
+.subtitle{
+	font-size: 37px;
+}
+.pad-r-50{
+	padding-right: 50px;
+}
+.pad-l-50{
+	padding-left: 50px;
+}
+.pad-t-20{
+	padding-top: 20px;
+}
+.pad-b-20{
+	padding-bottom: 20px;
+}
+.pad-b-30{
+	padding-bottom: 30px;
+}
+.blue-card{
+	background-color: #0000B6; 
+	height: 16em;
+	border-radius: 30px; 
+	padding-top: 15px;
+}
+.info-blue-card{
+	font-family: Norwester-Regular; 
+	font-size: 1.8em;
+}
+.description-blue-card{
+	font-family: Norwester-Regular; 
+	font-size: 1em;
+}
+.road-map{
+	width: 100%; 
+	position: relative; 
+	text-align: center; 
+	padding-bottom: 50px;
+}
+.road-map-steps{
+	position: absolute; 
+	top: 40%; 
+	padding-left: 10%; 
+	padding-right: 10%;
+}
+.road-map-step{
+	font-size: 1.1em;
+}
+.road-map-description{
+	font-size: 0.8em;
+}
+.footer{
+	background-color: #001437; 
+	padding: 30px 30px; 
+	color: #fff; 
+	font-family: Norwester-Regular;
+}
+.footer-medium-section{
+	text-align: center; 
+	font-size: 18px; 
+	padding: 0 70px !important;
+}
+.footer-item{
+	padding: 10px 10px; 
+	text-align: left;
+}
+.footer-link{
+	color: #fff; 
+	text-decoration: none !important;
+}
+.footer-right-section{
+	text-align: center; 
+	font-size: 20px;
+}
+.main-auth{
+	background-image: url(https://www.ecryptosmart.com/images/background-with-elements.png); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-color: #020591;
+	text-align: center;
+	padding: 120px 0;
+	color: #fff; 
+	font-family: Helvetica-Light; 
+	font-style: normal; 
+	font-weight: normal; 
+	font-size: 24px;
+}
+.eth-icon-div{
+	padding-top: 180px;
+	text-align: right;
+}
+.content-auth-div{
+	padding-top: 40px;
+}
+.content-auth{
+	background-color: #001437; 
+	border-radius: 15px;
+	width: 100%; 
+	box-shadow: 2px 2px 30px 6px #5DACED; 
+	padding-bottom: 30px;
+}
+.register-auto{
+	padding: 50px 100px 0 100px; 
+	font-size: 20px;
+}
+.input-div{
+	padding: 30px 50px 20px 50px;
+}
+.input-auth{
+	background-color: #001437 !important; 
+	border-radius: 15px !important; 
+	border: 1px solid #fff !important; 
+	color: #fff !important; 
+	text-align: center
+}
+.info-sponsor{
+	padding: 0 80px; 
+	font-size: 20px;
+}
+.submit-auth-div{
+	padding: 20px 100px;
+}
+.follow-auth-div{
+	padding: 30px 0; 
+	font-size: 20px; 
+	color: #fff;
+}
+.body-dashboard{
+	background-image: url(https://www.ecryptosmart.com/images/background.png); 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	padding: 20px 20px;
+}
+.dashboard-content{
+	padding: 50px 20px;
+}
+.header-items-title{
+	font-size: 11px;
+	font-weight: bold;
+	color: white;
+}
+.header-left-div{
+	padding-top: 30px;
+}
+.header-center-div{
+	padding-top: 45px;
+}
+.header-right-div{
+	padding-top: 25px;
+}
+.header-items-value1{
+	font-size: 26px; 
+	font-weight: bold;
+	color: #33FFB8;
+}
+.header-items-value2{
+	font-size: 26px; 
+	font-weight: bold;
+	color: #00FFFF;
+}
+.card-info{
+	background-color: rgba(255, 255, 255, 0.0) !important; 
+	border-color: white !important; 
+	border-radius: 15px !important;
+}
+.card-info-img-div{
+	padding-left: 30px !important;
+}
+.card-info-img{
+	width: 120px;
+}
+.card-info-text-div{
+	font-size: 30px; 
+	color: white; 
+	font-weight: bold;
+}
+.card-info-item-title{
+	font-size: 18px; 
+	font-weight: bold;
+	color: white;
+}
+.card-info-btn{
+	font-size: 13px !important; 
+	width: 100% !important;
+}
+.card-info-follow-div{
+	font-size: 12px; 
+	color: white; 
+	font-weight: bold;
+}
+.bo-st-title{
+	font-size: 30px; 
+	font-weight: bold; 
+	color: white;
+	padding-bottom: 20px;
+}
+.bo-st-details-link{
+	color:white !important;
+}
+.bo-st-details-link:hover{
+	text-decoration: none;
+}
+.bo-st-card{
+	background: linear-gradient(to bottom, #0253FF, #029CFF) !important;
+	color: white !important; 
+	font-weight: bold;
+}
+.bo-st-card-disabled{
+	opacity: 0.5;
+}
+.bo-st-card-body{
+	padding-bottom: .25rem !important;
+}
+.bo-st-img{
+	width: 50px;
+	height: 50px;
+}
+.bo-st-number{
+	font-size: 18px;
+}
+.bo-price{
+	font-size: 16px;
+}
+.bo-circles-div{
+	padding-top: 5px;
+}
+.bo-circle{
+	width: 20px; 
+	height: 20px; 
+	border-radius: 50%;
+	border: solid white 1.5px;
+}
+.bo-circle-big{
+	width: 60px; 
+	height: 60px; 
+	border-radius: 50%;
+	border: solid white 1.5px;
+}
+.bo-circle-1{
+	background: linear-gradient(to right, #33FFB8, #00FFFF) !important; 
+}
+.bo-circle-2{
+	background: linear-gradient(to right, #33FFB8, #4588FB) !important; 
+}
+.bo-circle-3{
+	background: linear-gradient(to right, #4588FB, #001437) !important;  
+}
+.bo-circle-x6-1{
+	background: linear-gradient(to right, #33FFB8, #00FFFF) !important; 
+}
+.bo-circle-x6-2{
+	background: linear-gradient(to right, #33FFB8, #00FFFF) !important; 
+}
+.bo-circle-x6-3{
+	background: linear-gradient(to right, #33FFB8, #4588FB) !important; 
+}
+.bo-circle-x6-4{
+	background: linear-gradient(to right, #4588FB, #001437) !important;  
+}
+.bo-circle-x6-5{
+	background: linear-gradient(to right, #33FFB8, #4588FB) !important; 
+}
+.bo-circle-x6-6{
+	background: linear-gradient(to right, #4588FB, #001437) !important;  
+}
+.bo-st-info{
+	font-size: 10px; 
+	padding-top: 0.50rem;
+}
+.box-right{
+	border-radius: 30px; 
+	background: linear-gradient(to right, #0253FF, #0000FF) !important; 
+	padding: 40px 0;
+}
+.bo-st-title-big{
+	padding-left: 120px !important;
+	font-size: 36px; 
+	font-weight: bold; 
+	color: white;
+	padding-bottom: 20px;
+}
+.bo-st-title-number-big{
+	font-size: 40px;
+	color: #33FFB8;
+}
+.bo-st-big-left-div{
+	padding-left: 130px !important;
+}
+.bo-st-big-user-id{
+	color: white; 
+	font-size: 24px; 
+	font-weight: bold;
+}
+.bo-st-big-center-div{
+	padding-top: 40px !important;
+}
+.bo-st-big-eth-balance{
+	font-size: 35px; 
+	font-weight: bold; 
+	color: white;
+}
+.bo-circles-big-div{
+	padding: 20px 40px;
+}
+.bo-st-info-big{
+	font-size: 24px; 
+	padding-top: 0.25rem;
+	color: white;
+	font-weight: bold;
+}
+.bo-st-big-right-div{
+	padding-right: 150px !important;
+}
+.bo-st-big-card-balance{
+	padding: 10px 0; 
+	color: white; 
+	font-size: 24px; 
+	font-weight: bold; 
+	line-height: 24px; 
+	border-radius: 15px; 
+	border: solid white 1px;
+}
+.bo-st-big-img{
+	width: 120px;
+	height: 250px
+}
+.card-x6-div{
+	padding-right: 3px !important; 
+	padding-left: 3px !important;
+}
+.bo-st-card-body-x6{
+	padding-bottom: .25rem !important;
+	padding-left: 5px !important; 
+	padding-right: 5px !important;
+}
+.bo-st-card-tree{
+	padding-left: 5px; 
+	padding-right: 5px;
+}
+.bo-st-card-tree-left-div{
+	padding-right: 0px !important;
+}
+.bo-st-card-tree-right-div{
+	padding-left: 0px !important;
+}
+/*** Móvil ***/
+@media (min-width: 1100px) and (max-width: 1450px) {
+	#eth-icon{
+		height: 500px;
+	}
+}
+@media (max-width: 1300px){
+	.bo-st-big-left-div{
+		padding-left: 100px !important;
+	}
+	.bo-st-big-right-div{
+		padding-right: 100px !important;
+	}
+	.bo-st-big-card-balance{
+		font-size: 22px; 
+		line-height: 22px; 
+	}
+	.bo-circle-big{
+		width: 50px; 
+		height: 50px; 
+	}
+}
+@media (max-width: 1100px){
+	.info-blue-card{
+		font-size: 1.6em;
+	}
+	.description-blue-card{
+		font-size: 0.8em;
+	}
+	#eth-icon-auth{
+		height: 500px;
+	}
+	.bo-st-big-left-div{
+		padding-left: 80px !important;
+	}
+	.bo-st-big-right-div{
+		padding-right: 80px !important;
+	}
+	.bo-st-big-card-balance{
+		font-size: 20px; 
+		line-height: 20px; 
+	}
+	.bo-st-big-eth-balance{
+		font-size: 32px; 
+	}
+	.bo-st-info-big{
+		font-size: 20px; 
+	}
+	.bo-circle-big{
+		width: 40px; 
+		height: 40px; 
+	}
+	
+}
+@media (max-width: 950px) {
+	.blue-card{
+		height: 12em;
+	}
+	.road-map-step{
+		font-size: 0.9em;
+	}
+	.road-map-description{
+		font-size: 0.6em;
+	}
+	.register-auto{
+		padding: 35px 50px 0 50px; 
+	}
+	.input-div{
+		padding: 30px 35px 20px 35px;
+	}
+	.info-sponsor{
+		padding: 0 60px; 
+	}
+	.submit-auth-div{
+		padding: 20px 70px;
+	}
+}
+@media (max-width: 800px){
+	.bo-st-big-left-div{
+		padding: 0px 5px !important;
+	}
+	.bo-st-big-right-div{
+		padding: 20px 100px !important;
+	}
+}
+@media (max-width: 550px) {
+	.road-map-step{
+		font-size: 0.6em;
+	}
+	.road-map-description{
+		font-size: 0.4em;
+	}
+	.register-auto{
+		padding: 35px 20px 0 20px; 
+	}
+	.input-div{
+		padding: 30px 15px 20px 15px;
+	}
+	.info-sponsor{
+		padding: 0 30px; 
+	}
+	.submit-auth-div{
+		padding: 20px 40px;
+	}
+	.bo-st-big-right-div{
+		padding: 20px 50px !important;
+	}
+}

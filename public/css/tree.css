@@ -1,0 +1,408 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.tree{
+    margin-top: -15px;
+}
+.tree ul {
+    /*padding-top: 10px;*/
+    position: relative !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+.tree li {
+    float: left !important;
+    text-align: center !important;
+    list-style-type: none !important;
+    position: relative !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+/*We will use ::before and ::after to draw the connectors*/
+/*Línea Horizontal que une los dos nodos */
+.tree li::before, .tree li::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 50% !important;
+    border-top: 1.5px solid white !important;
+    width: 50% !important;
+    height: 15px !important;
+    margin-top: -15px !important;
+}
+/*Línea Vertical Izquierda*/
+.tree li::after {
+    right: auto !important;
+    left: 50% !important;
+    border-left: 1.5px solid white !important;
+}
+/*We need to remove left-right connectors from elements without any siblings*/
+.tree li:only-child::after,
+.tree li:only-child::before {
+    display: none !important;
+}
+/*Remove space from the top of single children*/
+.tree li:only-child {
+    padding-top: 0 !important;
+}
+/*Remove left connector from first child and right connector from last child*/
+.tree li:first-child::before,
+.tree li:last-child::after {
+    border: 0 none !important;
+}
+/*Adding back the vertical connector to the last nodes*/
+/*Línea Vertical Derecha*/
+.tree li:last-child::before {
+    border-right: 1.5px solid white !important;
+    border-radius: 0 5px 0 0 !important;
+    -webkit-border-radius: 0 5px 0 0 !important;
+    -moz-border-radius: 0 5px 0 0 !important;
+}
+.tree li:first-child::after {
+    border-radius: 5px 0 0 0 !important;
+    -webkit-border-radius: 5px 0 0 0 !important;
+    -moz-border-radius: 5px 0 0 0 !important;
+}
+/*Time to add downward connectors from parents*/
+/*Línea Vertical Superior*/
+.tree ul ul::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 50% !important;
+    border-left: 1.5px solid white !important;
+    width: 0 !important;
+    height: 12px !important;
+    transform: translateY(-25px) !important;
+}
+.tree li a {
+    text-decoration: none !important;
+    color: #666 !important;
+    font-family: arial, verdana, tahoma !important;
+    font-size: 11px !important;
+    display: inline-block !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+
+
+/*Connector styles on hover*/
+
+.tree li a:hover+ul li::after,
+.tree li a:hover+ul li::before,
+.tree li a:hover+ul::before,
+.tree li a:hover+ul ul::before {
+    border-color: white !important;
+}
+
+.tree a {
+    position: relative !important;
+}
+.tree-bo-circle-main{
+    margin:0px 5px 20px 5px; 
+    width: 23px !important; 
+    height: 23px !important; 
+    border-radius: 50%;
+    border: solid white 1.5px;
+}
+.tree-bo-circle{
+    margin:0px 5px 0px 5px; 
+    width: 20px !important; 
+    height: 20px !important; 
+    border-radius: 50%;
+    border: solid white 1.5px;
+}
+
+/*Árbol para Vista de Detalles*/
+.tree-big{
+    margin-top: -15px;
+}
+.tree-big ul {
+    /*padding-top: 10px;*/
+    position: relative !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+.tree-big li {
+    float: left !important;
+    text-align: center !important;
+    list-style-type: none !important;
+    position: relative !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+/*We will use ::before and ::after to draw the connectors*/
+/*Línea Horizontal que une los dos nodos */
+.tree-big li::before, .tree-big li::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 50% !important;
+    border-top: 2.5px solid white !important;
+    width: 50% !important;
+    height: 15px !important;
+    margin-top: -15px !important;
+}
+/*Línea Vertical Izquierda*/
+.tree-big li::after {
+    right: auto !important;
+    left: 50% !important;
+    border-left: 2.5px solid white !important;
+}
+/*We need to remove left-right connectors from elements without any siblings*/
+.tree-big li:only-child::after,
+.tree-big li:only-child::before {
+    display: none !important;
+}
+/*Remove space from the top of single children*/
+.tree-big li:only-child {
+    padding-top: 0 !important;
+}
+/*Remove left connector from first child and right connector from last child*/
+.tree-big li:first-child::before,
+.tree-big li:last-child::after {
+    border: 0 none !important;
+}
+/*Adding back the vertical connector to the last nodes*/
+/*Línea Vertical Derecha*/
+.tree-big li:last-child::before {
+    border-right: 2.5px solid white !important;
+    border-radius: 0 5px 0 0 !important;
+    -webkit-border-radius: 0 5px 0 0 !important;
+    -moz-border-radius: 0 5px 0 0 !important;
+}
+.tree-big li:first-child::after {
+    border-radius: 5px 0 0 0 !important;
+    -webkit-border-radius: 5px 0 0 0 !important;
+    -moz-border-radius: 5px 0 0 0 !important;
+}
+/*Time to add downward connectors from parents*/
+/*Línea Vertical Superior*/
+.tree-big ul ul::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 50% !important;
+    border-left: 2.5px solid white !important;
+    width: 0 !important;
+    height: 12px !important;
+    transform: translateY(-25px) !important;
+}
+.tree-big li a {
+    text-decoration: none !important;
+    color: #666 !important;
+    font-family: arial, verdana, tahoma !important;
+    font-size: 12px !important;
+    display: inline-block !important;
+    border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    -moz-border-radius: 5px !important;
+    transition: all 0.5s !important;
+    -webkit-transition: all 0.5s !important;
+    -moz-transition: all 0.5s !important;
+}
+/*Time for some hover effects*/
+/*We will apply the hover effect the the lineage of the element also*/
+
+
+/*Connector styles on hover*/
+
+.tree-big li a:hover+ul li::after,
+.tree-big li a:hover+ul li::before,
+.tree-big li a:hover+ul::before,
+.tree-big li a:hover+ul ul::before {
+    border-color: white !important;
+}
+
+.tree-big a {
+    position: relative !important;
+}
+.tree-big-bo-circle-main{
+    margin:0px 5px 20px 5px; 
+    width: 43px !important; 
+    height: 43px !important; 
+    border-radius: 50%;
+    border: solid white 1.5px;
+}
+.tree-big-bo-circle{
+    margin:0px 5px 0px 5px; 
+    width: 40px !important; 
+    height: 40px !important; 
+    border-radius: 50%;
+    border: solid white 1.5px;
+}
+.tree-dashboard{
+    padding-left: 20px;
+}
+@media (max-width: 1650px) {
+    .tree-dashboard{
+        padding-left: 12px;
+    }
+}
+@media (max-width: 1350px) {
+	.tree-big-bo-circle-main{
+        width: 35px !important; 
+        height: 35px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 30px !important; 
+        height: 30px !important; 
+    }
+    .tree-bo-circle-main{
+        width: 22px !important; 
+        height: 22px !important; 
+    }
+    .tree-dashboard{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 1280px) {
+    .tree-bo-circle-main{
+        width: 20px !important; 
+        height: 20px !important; 
+    }
+    .tree-bo-circle{
+        width: 17px !important; 
+        height: 17px !important; 
+    }
+	.tree-big-bo-circle-main{
+        width: 30px !important; 
+        height: 30px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 25px !important; 
+        height: 25px !important; 
+    }
+}
+@media (max-width: 1200px) {
+    .bo-circles-big-div{
+        padding: 20px 20px;
+    }
+    .tree-big-bo-circle-main{
+        width: 25px !important; 
+        height: 25px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 20px !important; 
+        height: 20px !important; 
+    }
+    .tree-dashboard{
+        padding-left: 20px;
+    }
+}
+@media (max-width: 1120px) {
+    .tree-dashboard{
+        padding-left: 10px;
+    }
+}
+@media (max-width: 990px) {
+    .bo-circles-big-div{
+        padding: 20px 30px;
+    }
+    .tree-big-bo-circle-main{
+        width: 28px !important; 
+        height: 28px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 23px !important; 
+        height: 23px !important; 
+    }
+}
+@media (max-width: 860px) {
+    .bo-st-big-right-div{
+        padding-right: 40px !important;
+    }
+    .bo-circles-big-div{
+        padding: 20px 30px;
+    }
+    .tree-bo-circle-main{
+        width: 17px !important; 
+        height: 17px !important; 
+    }
+    .tree-bo-circle{
+        width: 14px !important; 
+        height: 14px !important; 
+    }
+}
+@media (max-width: 765px) {
+    .bo-circles-big-div{
+        padding: 20px 150px;
+    }
+    .tree-big-bo-circle-main{
+        width: 45px !important; 
+        height: 45px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 40px !important; 
+        height: 40px !important; 
+    }
+    .tree-bo-circle-main{
+        width: 28px !important; 
+        height: 28px !important; 
+    }
+    .tree-bo-circle{
+        width: 25px !important; 
+        height: 25px !important; 
+    }
+    .tree-dashboard{
+        padding-left: 50px;
+    }
+}
+@media (max-width: 645px) {
+    .bo-circles-big-div{
+        padding: 20px 100px;
+    }
+    .tree-big-bo-circle-main{
+        width: 45px !important; 
+        height: 45px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 40px !important; 
+        height: 40px !important; 
+    }
+    .tree-dashboard{
+        padding-left: 30px;
+    }
+}
+@media (max-width: 550px) {
+    .bo-circles-big-div{
+        padding: 20px 60px;
+    }
+    .tree-big-bo-circle-main{
+        width: 40px !important; 
+        height: 40px !important; 
+    }
+    .tree-big-bo-circle{
+        width: 35px !important; 
+        height: 35px !important; 
+    }
+    .tree-bo-circle-main{
+        width: 35px !important; 
+        height: 35px !important; 
+    }
+    .tree-bo-circle{
+        width: 32px !important; 
+        height: 32px !important; 
+    }
+    .tree-dashboard{
+        padding-left: 80px;
+    }
+}
+@media (max-width: 450px) {
+    .tree-dashboard{
+        padding-left: 50px;
+    }
+}
+
