@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body style="overflow-x:hidden">
 	<div class="main">
 		{{-- NAVBAR --}}
 		<nav class="navbar navbar-light">

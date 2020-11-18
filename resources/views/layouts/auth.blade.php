@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -13,7 +13,8 @@
 		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 		@stack('styles')
 	</head>
-	<body>
+	
+	<body style="overflow-x:hidden">
 		<input type="hidden" id="metamask" >
 		<input type="hidden" id="address_account">
 		<div class="main-auth">
