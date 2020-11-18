@@ -10239,6 +10239,7 @@ a.text-dark:hover, a.text-dark:focus {
     size: a3;
   }
   body {
+    overflow-x: hidden;
     min-width: 992px !important;
   }
   .container {

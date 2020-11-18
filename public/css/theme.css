@@ -2,6 +2,7 @@ body{
 	background-image: url(https://www.ecryptosmart.com/images/background.png); 
 	background-repeat: no-repeat; 
 	background-size: cover;
+	overflow-x: hidden;
 }
 .language-li{
 	margin-right: 80px;
