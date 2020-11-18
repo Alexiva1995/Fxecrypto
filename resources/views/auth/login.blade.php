@@ -67,7 +67,7 @@
 
 @section('content')
 	<div class="content-auth">
-		<div style="padding-top: 20px; font-size: 37px; color: #fff;">Iniciar Sesión</div>
+		<div style="padding-top: 5px; font-size: 30px; color: #fff;">Iniciar Sesión</div>
 
 		<div class="register-auto">
 			La entrada a tu oficina virtual a través de Metamask <br>

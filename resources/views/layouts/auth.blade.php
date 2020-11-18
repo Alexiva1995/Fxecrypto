@@ -19,7 +19,7 @@
 		<div class="main-auth">
 			<div class="row">
 				<div class="col-xl-4 col-lg-4 col-md-4 d-none d-md-block d-lg-block d-xl-block eth-icon-div">
-					<img src="{{ asset('images/eth-icon.png') }}" id="eth-icon-auth" height="650" alt="Etherium" loading="lazy">
+					<img src="{{ asset('images/eth-icon.png') }}" id="eth-icon-auth" height="400" alt="Etherium" loading="lazy">
 				</div>
 				<div class="col-xl-8 col-lg-8 col-md-8 col-sm-12 col-xs-12">
 					<div class="row">

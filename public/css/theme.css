@@ -222,7 +222,7 @@ body{
 	background-size: cover; 
 	background-color: #020591;
 	text-align: center;
-	padding: 120px 0;
+	padding: 0px 0;
 	color: #fff; 
 	font-family: Helvetica-Light; 
 	font-style: normal; 
@@ -244,7 +244,7 @@ body{
 	padding-bottom: 30px;
 }
 .register-auto{
-	padding: 50px 100px 0 100px; 
+	padding: 10px 5px 15px 20px;
 	font-size: 20px;
 }
 .input-div{
