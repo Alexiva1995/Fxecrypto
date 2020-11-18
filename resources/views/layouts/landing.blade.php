@@ -35,10 +35,10 @@
 
 		<div class="row">
 			<div class="col-md-2 d-none d-xl-block" style="text-align: right; padding-left: 8%;">
-				<img src="{{ asset('images/eth-icon.png') }}" id="eth-icon" alt="Etherium" loading="lazy">
+					{{-- <img src="{{ asset('images/eth-icon.png') }}" id="eth-icon" alt="Etherium" loading="lazy"> --}}
 			</div>
 
-			<div class="col-sm-12 col-md-12 col-lg-12 col-xl-8 smart-contract">
+			<div class="col-sm-8 col-md-8 col-lg-8 col-xl-8 smart-contract">
 				<img src="{{ asset('images/smart-contract.png') }}" class="img-fluid" alt="Smart Contract" loading="lazy"><br>
 
 				<div class="smart-contract-buttons">
@@ -63,14 +63,14 @@
 
 				<div class="row">
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-r-50 pad-b-30">
-						<img src="{{ asset('images/icono-seguridad.png') }}" style="width: 180px; height: 180px;" alt="Riesgos" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-seguridad.png') }}" style="width: 150px; height: 150px;" alt="Riesgos" loading="lazy"><br><br>
 
 						<span class="subtitle">No Corres Riesgos:</span><br>
 
 						El costo que debes invertir en el proyecto es de tan solo 0,03 ETH, y te serán devueltos por medio de tu primer referido. No debes realizar ninguna solicitud de pago y no necesitas esperar. Tus fondos serán transferidos directamente a tu Wallet.
 					</div>
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-l-50 pad-b-30">
-						<img src="{{ asset('images/icono-escudo.png') }}" style="width: 180px; height: 180px;" alt="Transparencia" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-escudo.png') }}" style="width: 150px; height: 150px;" alt="Transparencia" loading="lazy"><br><br>
 
 						<span class="subtitle">Transparencia:</span><br>
 
@@ -80,7 +80,7 @@
 					<div class="w-100"></div>
 
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-r-50 pad-b-30">
-						<img src="{{ asset('images/icono-piramide.png') }}" style="width: 180px; height: 180px;" alt="No Somos Pirámide" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-piramide.png') }}" style="width: 150px; height: 150px;" alt="No Somos Pirámide" loading="lazy"><br><br>
 
 						<span class="subtitle">No Somos una Pirámide:</span><br>
 
@@ -88,7 +88,7 @@
 					</div>
 
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-l-50 pad-b-30">
-						<img src="{{ asset('images/icono-descentralizacion.png') }}" style="width: 180px; height: 180px;" alt="Descentralización" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-descentralizacion.png') }}" style="width: 150px; height: 150px;" alt="Descentralización" loading="lazy"><br><br>
 
 						<span class="subtitle">Descentralización:</span><br>
 
@@ -98,7 +98,7 @@
 					<div class="w-100"></div>
 
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-r-50 pad-b-30">
-						<img src="{{ asset('images/icono-referidos.png') }}" style="width: 180px; height: 180px;" alt="Referidos" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-referidos.png') }}" style="width: 150px; height: 150px;" alt="Referidos" loading="lazy"><br><br>
 
 						<span class="subtitle">Referidos por tus Líneas Ascendentes:</span><br>
 
@@ -106,7 +106,7 @@
 					</div>
 
 					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 pad-l-50 pad-b-30">
-						<img src="{{ asset('images/icono-online.png') }}" style="width: 180px; height: 180px;" alt="Online" loading="lazy"><br><br>
+						<img src="{{ asset('images/icono-online.png') }}" style="width: 150px; height: 150px;" alt="Online" loading="lazy"><br><br>
 
 						<span class="subtitle">On Line:</span><br>
 
