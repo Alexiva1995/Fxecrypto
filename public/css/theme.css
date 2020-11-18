@@ -135,16 +135,16 @@ body{
 }
 .first-title{
 	font-family: Norwester-Regular; 
-	font-size: 40px;
+	font-size: 35px;
 }
 .title{
 	font-family: Norwester-Regular; 
-	font-size: 50px;
-	padding-top: 50px; 
-	padding-bottom: 30px;
+	font-size: 40px;
+	padding-top: 40px; 
+	padding-bottom: 25px;
 }
 .subtitle{
-	font-size: 37px;
+	font-size: 30px;
 }
 .pad-r-50{
 	padding-right: 50px;
@@ -201,7 +201,7 @@ body{
 }
 .footer-medium-section{
 	text-align: center; 
-	font-size: 18px; 
+	font-size: 12px; 
 	padding: 0 70px !important;
 }
 .footer-item{

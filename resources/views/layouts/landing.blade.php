@@ -182,24 +182,24 @@
 				<div class="col-md-6 footer-medium-section">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
-							<a href="{{ route('register') }}" class="footer-link">REGISTRO</a>
+							<a font size="2" href="{{ route('register') }}" class="footer-link" >REGISTRO</a>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
 							<a href="" class="footer-link">¿POR QUÉ VALE LA PENA E-CRIPTO?</a>
 						</div>
 						<div class="w-100"></div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
-							<a href="" class="footer-link">¿CÓMO FUNCIONA?</a>
+							<a href="#" class="footer-link">¿CÓMO FUNCIONA?</a>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
-							<a href="" class="footer-link">¿ESTADÍSTICAS EN VIVO?</a>
+							<a href="#" class="footer-link">¿ESTADÍSTICAS EN VIVO?</a>
 						</div>
 						<div class="w-100"></div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
 							<a href="{{ route('login') }}" class="footer-link">INICIAR SESIÓN</a>
 						</div>
 						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 footer-item">
-							<a href="" class="footer-link">ROAD MAP</a>
+							<a href="#" class="footer-link">ROAD MAP</a>
 						</div>
 					</div>
 				</div>
